@@ -1,0 +1,100 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    max-width: 1024px;
+    min-width: 600px;
+    background-color: #88b6fb;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+.all_page { 
+    display:flex;
+    max-width: 1024px;
+    margin: auto;
+    border: black solid 1px;
+
+}
+
+
+
+/* my CSC*/
+
+
+.My_CSC{
+    width: 300px;
+    padding:5px;
+    background-color: #17192e9e;
+}
+.my_photo, .Contact, .SKILLS {
+    padding-bottom: 25px;
+    font-size:medium ;
+}
+img {
+    width: auto;
+}
+
+
+
+/* info for me*/
+
+
+.info_for_me{
+    background-color:#d5d7e99e;
+    flex-direction: column;
+    padding-left:10px;
+    }
+.my_future_work {
+    text-align: left;
+    font-size: 25px;
+    line-height: 5px; 
+    margin-left: 5px;
+}
+.my_name {
+    text-align: left;
+    font-size: 40px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+.for_me {
+    font-size: 20px;
+    line-height:25px; 
+}
+.code_exempl {
+margin-left: 10px;
+}
+.name_ex {
+   font-size: 25px;
+   line-height: 5px; 
+}
+.code_text {
+    border:3px solid #684c4c;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+.My_project {
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 5px;
+
+}
+.project_skrin {
+    
+    display:flex;
+    justify-content: space-evenly;
+    border: black solid 3px;
+    margin-right:20px;
+    margin-left:10px ;
+}
+.projects_link {
+    font-size: 20px;
+    line-height: 5px;
+}
+.ENGLISH {
+    font-size: 25px;
+    line-height: 5px; 
+}
