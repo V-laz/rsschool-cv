@@ -10,8 +10,21 @@ body {
 * {
     box-sizing: border-box;
 }
+.page {
+    max-width: 1024px;
+    
+    border: black solid 1px;
+}
+#header{
+    height: auto;
+    background-color: rgb(147 193 255);
+    text-align: left;
+    font-size: 35px;
+    padding-left: 20px;
+    
+}
 
-.all_page { 
+.main { 
     display:flex;
     max-width: 1024px;
     margin: auto;
@@ -93,12 +106,7 @@ li:hover {
     line-height: 5px; 
     margin-left: 5px;
 }
-.my_name {
-    text-align: left;
-    font-size: 40px;
-    line-height: 25px;
-    margin-left: 5px;
-}
+
 .for_me {
     font-size: 20px;
     line-height:25px; 
@@ -142,4 +150,7 @@ margin-left: 10px;
 .logo {
     height: 30px;
     margin:5px;
+}
+#footer {
+    background-color: rgb(147 193 255);
 }
