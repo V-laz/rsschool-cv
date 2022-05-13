@@ -40,7 +40,7 @@
                                 <h3>My skils</h3>
                                 <ul class="left_bar"> 
                                     <li>Version control: GIT, Github</li>
-                                    <li>Web-development: HTML5, CSS3</li>
+                                    <li>Web-development: HTML5, CSS3,React</li>
                                     <li>Graphics: Figma</li>
                                 </ul>
                             
@@ -63,9 +63,12 @@
                             <div class="about_me">
                                 <p class="my_future_work">Future Junior Software Engineer </p>
                                 <p class="for_me">Ny name <b>Lazaruk Vitali</b>
-                                    I 36 year old.
+                                    I 36 year old.I from in Belarus.
                                     I live in Warsawa, Poland. 
-                                    I study JS and HTML/css.
+                                    All my time i does study Web-development.
+                                    I write code in visual studio,
+                                    and watch lections of HTML,CSS,React in youtube. 
+                                    I think, people can all, if very wont.
                                     i need good job. </p>
                             </div>
                     
@@ -73,11 +76,20 @@
                                 <div class="code_exempl">
                                     <p class="name_ex">My code example:</p>
                                     
-                                    <p class="code_text">  form method="post" action="#" id="login" <br>
-                                        input type="text" name="login _field" placeholder="Логин" <br>
-                                        input type="password" name="password _field" placeholder="Пароль" <br>
-                                        input type="submit" class="btn" value="Вход" <br>
-                                    </p>
+                                    <div class="code_text">  
+                                      
+                                        
+                                        const MyPosts = (props) => { <br>
+                                        let postElement = props.posts.map(p => <br>
+                                        < Post message={p.message} likesCount={p.likesCount} />)
+                                        let newPostElement = React.createRef();
+                                        let addPost = () => {
+                                        let text = newPostElement.current.value;
+                                        props.addPost(text);
+                                        newPostElement.current.value = "";
+                                        }
+                                   
+                                    </div>
                                 </div>
                     
                                     <div class="PROJECTS">
@@ -93,9 +105,13 @@
                                             </li>
                                         </ol>
                                     </div>
-                                        <div class="ENGLISH">
-                                            <p> My English</p>
-                                            <h5>I study English in <a href="http://english-grebenkova.tilda.ws/" target="_blank">English-grebenkova school</a> level A1</h5>
+                                        <div class="language">
+                                            <p> My language</p>
+                                            <h5>Russian-Native</h5>
+                                            <h5>Belarus-Native</h5>
+                                            <h5>Polish-Conversational</h5>
+                                            <h5>English-study</h5>
+                                            <h6>I study English in <a href="http://english-grebenkova.tilda.ws/" target="_blank">English-grebenkova school</a> level A1</h6>
                                         </div>
                                             <div class="EDUCATION">
                                                 <p> My education</p>

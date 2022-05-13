@@ -150,10 +150,13 @@ margin-left: 10px;
     font-size: 20px;
     line-height: 5px;
 }
-.ENGLISH, .EDUCATION {
+.language, .EDUCATION {
     font-size: 25px;
     line-height: 5px; 
     margin: 45px 20px 80px 10px;
+}
+.language h5 {
+    margin: 25px 2px 0 10px;
 }
 .logo {
     height: 30px;
