@@ -51,6 +51,9 @@ body {
     height: auto;
     display:block;
 }
+.my_photo img {
+    width:274px ;
+}
 .Contact {
     padding-bottom: 25px;
     font-size:medium ;
