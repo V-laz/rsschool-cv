@@ -143,15 +143,23 @@ margin-left: 10px;
 .project_skrin {
     
     display:flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap:wrap;
     border: black solid 3px;
     margin-right:20px;
     margin-left:10px ;
     padding-left: 5px;
 }
 .projects_link {
+
     font-size: 20px;
     line-height: 5px;
+}
+.projects_link:hover, li:hover {
+       font-size: 20px;
+       line-height: 5px;
+
 }
 .language, .EDUCATION {
     font-size: 25px;
@@ -179,4 +187,17 @@ margin-left: 10px;
     .info_for_me {
         width: 100%;
     }
+}
+@media print {
+
+    .PROJECTS, #footer {
+        display:none;
+    }
+
+    .clink,
+    .left_bar,
+    h3 {
+        color:black;
+    }
+
 }
