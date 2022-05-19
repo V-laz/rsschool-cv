@@ -196,14 +196,24 @@ margin-left: 10px;
 }
 @media print {
 
-    .PROJECTS, #footer {
+    html,
+    body,
+    .page {
+        height: 297mm;
+        width: 210mm;
+    }
+    .my_photo img {
+       width: 150px;
+    }
+
+    .My_CSC {display:flex;
+        margin:5px;
+    }
+    .main {
+        display:flex;
+        flex-direction: column;
+    }
+    #footer {
         display:none;
     }
-
-    .clink,
-    .left_bar,
-    h3 {
-        color:black;
-    }
-
 }
