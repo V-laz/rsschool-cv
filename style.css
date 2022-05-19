@@ -6,10 +6,7 @@ body {
     margin: 0 auto;
     padding: 2rem;
     
-}
-* {
-    box-sizing: border-box;
-}
+} 
 .page {
     max-width: 1024px;
     
@@ -81,10 +78,7 @@ button {
     cursor: pointer;
     
 }
-button:hover {
-    width: 110%;
-    
-}
+
 
 /* my skils */
 
@@ -112,8 +106,7 @@ h3 {
     background-color:#d5d7e99e;
     flex-direction: column;
     padding-left:10px;
-    width: 70%;
-    min-width: 515px;
+
     }
 .my_future_work {
     text-align: left;
@@ -162,7 +155,7 @@ margin-left: 10px;
     line-height: 5px;
 }
 
-.projects_link:hover,  {
+.projects_link:hover  {
        font-size: 20px;
        line-height: 5px;
 
@@ -185,7 +178,8 @@ margin-left: 10px;
 @media (
     max-width: 900px){
      .main {
-     display:flex; flex-wrap: wrap;
+     display:flex; 
+     flex-wrap: wrap;
      }
      .My_CSC{
         width:100%;
@@ -196,24 +190,35 @@ margin-left: 10px;
 }
 @media print {
 
-    html,
-    body,
-    .page {
-        height: 297mm;
-        width: 210mm;
-    }
+
+
     .my_photo img {
-       width: 150px;
+        width: 150px;
     }
 
-    .My_CSC {display:flex;
-        margin:5px;
+    .My_CSC {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+
+
     }
+
     .main {
-        display:flex;
+        display: flex;
         flex-direction: column;
+
     }
+
     #footer {
-        display:none;
+        display: none;
     }
+
+
+
+    .printer {
+        height: 150px;
+    }
+
 }
+
