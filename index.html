@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mukta&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My resyme</title>
+</head>
+
+<body>
+    <!--main_contaner-all page resume-->
+
+    <!--main_contener_section all info for me-->
+
+
+    <div class="main">
+        <!--My_CSC- Contact skils courses-->
+        <div class="My_CSC">
+            <div class="my_photo">
+                <img src="assets/img/IMG_20211001_122803.jpg" alt="avatar">
+            </div>
+            <div class="Contact">
+                <h3>My contact</h3>
+
+                <p class="clink">Phone:<a class="contact_link" href="tel:+48572492958"> +48572492958</a> </p>
+                <p class="clink">Email:<a class="contact_link"
+                        href="mailto:Lazaruk.vitali@gmail.com">Lazaruk.vitali@gmail.com</a></p>
+                <p class="clink">Github:<a class="contact_link" href="https://github.com/v-laz" target="_blank">
+                        V-laz</a></p>
+
+
+            </div>
+            <div class="SKILLS">
+                <h3>My skils</h3>
+                <ul class="left_bar">
+                    <li>Version control: GIT, Github</li>
+                    <li>Web-development: HTML5, CSS3, React</li>
+                    <li>Graphics: Figma</li>
+                </ul>
+
+            </div>
+            <div class="my_courses">
+                <h3>My courses</h3>
+                <ul class="left_bar">
+                    <li>3Wschool-HTML</li>
+                    <li>3Wschool-CSS</li>
+                    <li>3Wschool-JS</li>
+                    <li>JS / FRONT-END. STAGE 0 (RU)
+                        The Rolling Scopes
+                    </li>
+                    <li>Grebenkowa-school(English></li>
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="printer">
+            <div class="info_for_me">
+                <!--about me-->
+                <div class="about_me">
+                    <h1> Lazaruk Vitali</h1>
+                    <p class="my_future_work">Future Junior Software Engineer </p>
+                    <p class="for_me">Ny name <b>Lazaruk Vitali</b>
+                        I 37 year old.I am from in Belarus.
+                        I live in Warszawa, Poland.
+                        All my time i does study Web-development.
+                        I write code in visual studio,
+                        and watch lections of HTML,CSS,React in youtube.
+                        I think, people can all, if very wont.
+                        All my project you can search in my Github Repositories- https://github.com/v-laz </p>
+                </div>
+
+                <!--aboutcode exempl-->
+                <div class="code_exempl">
+                    <p class="name_ex">My code example:</p>
+
+                    <div class="code_text">
+
+
+                        const MyPosts = (props) => { <br>
+                        let postElement = props.posts.map(p => <br>
+                        < Post message={p.message} likesCount={p.likesCount} />)
+                        let newPostElement = React.createRef();
+                        let addPost = () => {
+                        let text = newPostElement.current.value;
+                        props.addPost(text);
+                        newPostElement.current.value = "";
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="PROJECTS">
+                <p class="My_project">My Project:</p>
+                <ol class="project_skrin">
+                    <li>
+                        <p class="projects_link">Online film":</p>
+                        <a href="https://suspicious-austin-b00090.netlify.app" target="_blank">
+                            <button>
+                                <img src="assets/img/film_site.png" alt="Resume" />
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <p class="projects_link">My resume</p>
+                        <a href="https://affectionate-panini-e7490d.netlify.app" target="_blank">
+                            <button>
+                                <img src="assets/img/resume.png" alt="Online-Film">
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <p class="projects_link">Portfolio</p>
+                        <a href="https://rolling-scopes-school.github.io/v-laz-JSFEPRESCHOOL/" target="_blank">
+                            <button>
+                                <img src="assets/img/portfolio.png" alt="Portfolio">
+                            </button>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <div class="language">
+                <p> My language</p>
+                <h5>Russian-Native</h5>
+                <h5>Belarus-Native</h5>
+                <h5>Polish-Conversational</h5>
+                <h5>English-study</h5>
+                <h6>I study English in <a href="http://english-grebenkova.tilda.ws/" target="_blank">English-grebenkova
+                        school</a> level A1</h6>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

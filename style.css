@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+  padding: 40px;
+}
+
+#header{
+    height: auto;
+    background-color: rgb(147 193 255);
+    text-align: left;
+    font-size: 35px;
+    padding-left: 20px;
+    
+}
+
+.main { 
+    display:flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 10px 6px 6px 20px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+
+
+/* my Contact*/
+
+
+.My_CSC{
+    width: 30%;
+    min-width: 280px;
+    padding:5px;
+    background-color: #17192e9e;
+}
+.my_photo {
+
+    max-width:auto ;
+    height: auto;
+    display:block;
+}
+.my_photo img {
+    width:274px ;
+}
+.Contact {
+    padding-bottom: 25px;
+    font-size:medium ;
+}
+
+.clink {
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:14px;
+    padding: 7px;
+    color:antiquewhite
+
+}
+.contact_link {
+    color:rgb(163, 194, 235);
+    padding-left: 5px;
+    
+}
+.contact_link:hover {
+    font-size:105%;
+}
+button {
+    cursor: pointer;
+    
+}
+
+
+/* my skils */
+
+  .SKILLS {
+    padding-bottom: 25px;
+    font-size:medium ;
+}
+
+.left_bar {
+    color:antiquewhite;
+}
+h3 {
+    color:antiquewhite;
+}
+
+
+
+
+
+
+/* info for me*/
+
+
+.info_for_me{
+    background-color:#d5d7e99e;
+    flex-direction: column;
+    padding:10px;
+
+    }
+.my_future_work {
+    text-align: left;
+    font-size: 25px;
+    line-height: 5px; 
+    margin-left: 5px;
+}
+
+.for_me {
+    font-size: 20px;
+    line-height:25px; 
+}
+.code_exempl {
+margin-left: 10px;
+}
+.name_ex {
+   font-size: 25px;
+   line-height: 5px; 
+}
+.code_text {
+    border:3px solid #684c4c;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+.My_project {
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 5px;
+
+}
+.project_skrin {
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    border: black solid 3px;
+    margin-right:20px;
+    margin-left:10px ;
+    padding: 10px;
+}
+.projects_link {
+
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.projects_link:hover  {
+       font-size: 20px;
+       line-height: 5px;
+
+}
+.language, .EDUCATION {
+    font-size: 25px;
+    line-height: 5px; 
+    margin: 15px 20px ;
+}
+.language h5 {
+    margin: 25px 2px 0 10px;
+}
+.logo {
+    height: 30px;
+    margin:5px;
+}
+#footer {
+    background-color: rgb(147 193 255);
+}
+@media (
+    max-width: 900px){
+     .main {
+     display:flex; 
+     flex-wrap: wrap;
+     }
+     .My_CSC{
+        width:100%;
+    }
+    .info_for_me {
+        width: 100%;
+    }
+}
+
+
