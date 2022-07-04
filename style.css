@@ -1,17 +1,9 @@
-body {
-    font-family: 'Mukta', sans-serif;
-    max-width: 1024px;
-    min-width: 600px;
-    background-color: #88b6fb;
-    margin: 0 auto;
-    padding: 2rem;
-    
-} 
-.page {
-    max-width: 1024px;
-    
-    border: black solid 1px;
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+  padding: 40px;
 }
+
 #header{
     height: auto;
     background-color: rgb(147 193 255);
@@ -22,11 +14,12 @@ body {
 }
 
 .main { 
-    display: flex;
-    max-width: 1024px;
-    margin: auto;
-    border: black solid 1px;
-    flex-direction: row;
+    display:flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 10px 6px 6px 20px rgba(0, 0, 0, 0.3);
     
 
 }
@@ -105,7 +98,7 @@ h3 {
 .info_for_me{
     background-color:#d5d7e99e;
     flex-direction: column;
-    padding-left:10px;
+    padding:10px;
 
     }
 .my_future_work {
@@ -147,7 +140,7 @@ margin-left: 10px;
     border: black solid 3px;
     margin-right:20px;
     margin-left:10px ;
-    padding-left: 5px;
+    padding: 10px;
 }
 .projects_link {
 
@@ -163,7 +156,7 @@ margin-left: 10px;
 .language, .EDUCATION {
     font-size: 25px;
     line-height: 5px; 
-    margin: 45px 20px 80px 10px;
+    margin: 15px 20px ;
 }
 .language h5 {
     margin: 25px 2px 0 10px;
@@ -188,37 +181,5 @@ margin-left: 10px;
         width: 100%;
     }
 }
-@media print {
 
-
-
-    .my_photo img {
-        width: 150px;
-    }
-
-    .My_CSC {
-        display: flex;
-        flex-direction: row;
-        margin: 5px;
-
-
-    }
-
-    .main {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    #footer {
-        display: none;
-    }
-
-
-
-    .printer {
-        height: 150px;
-    }
-
-}
 
